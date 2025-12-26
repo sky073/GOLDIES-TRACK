@@ -1,0 +1,75 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Gold | Officer Portal</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4f4f4; }
+        header { background: #d4af37; color: white; padding: 2rem; text-align: center; border-bottom: 5px solid #aa8a2e; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-top: 4px solid #d4af37; }
+        
+        h2 { color: #333; border-bottom: 2px solid #d4af37; padding-bottom: 5px; }
+        .role { font-weight: bold; color: #aa8a2e; text-transform: uppercase; font-size: 0.9rem; }
+        .announcement { background: #fff8e1; border-left: 5px solid #d4af37; padding: 10px; margin-bottom: 10px; }
+        
+        footer { text-align: center; padding: 20px; color: #777; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CLASS GOLD</h1>
+    <p>Official Officer Management Portal</p>
+</header>
+
+<div class="container">
+    
+    <section>
+        <h2>Class Officers</h2>
+        <div class="grid">
+            <div class="card">
+                <p class="role">President</p>
+                <h3>[Name Here]</h3>
+                <p>Oversees all class activities and leads meetings.</p>
+            </div>
+            <div class="card">
+                <p class="role">Vice President</p>
+                <h3>[Name Here]</h3>
+                <p>Supports the President and manages committees.</p>
+            </div>
+            <div class="card">
+                <div class="role">Secretary</div>
+                <h3>[Name Here]</h3>
+                <p>Handles documentation and attendance records.</p>
+            </div>
+            <div class="card">
+                <div class="role">Treasurer</div>
+                <h3>[Name Here]</h3>
+            </div>
+        </div>
+    </section>
+
+    <section style="margin-top: 40px;">
+        <h2>Announcements & Tasks</h2>
+        <div class="card">
+            <div class="announcement">
+                <strong>Meeting:</strong> Friday after school in Room 101 to discuss the fundraiser.
+            </div>
+            <div class="announcement">
+                <strong>Reminder:</strong> Submit the monthly attendance report by Wednesday.
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2025 Class Gold. Stay Golden.
+</footer>
+
+</body>
+</html>
