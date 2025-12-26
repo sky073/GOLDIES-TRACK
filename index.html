@@ -1,17 +1,16 @@
-# GOLDIES-TRACK
-: A streamlined dashboard designed to monitor high-priority tasks and milestones. Precision tracking for your most valuable goals
-      <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOLDIES-TRACK | Dashboard</title>
+    <title>GOLDIES-TRACK | RTPM-DSHS</title>
     <style>
         :root {
             --gold: #d4af37;
             --dark-gold: #aa8a2e;
             --bg: #1a1a1a;
             --card-bg: #252525;
+            --green-accent: #2e7d32;
         }
 
         body { 
@@ -25,32 +24,51 @@
         header { 
             background: linear-gradient(135deg, var(--gold), var(--dark-gold));
             color: white; 
-            padding: 3rem 1rem; 
+            padding: 2.5rem 1rem; 
             text-align: center; 
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
 
-        h1 { margin: 0; letter-spacing: 2px; font-size: 1.8rem; }
-        .subtitle { opacity: 0.9; font-size: 0.9rem; }
-
         .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
         
+        .school-info {
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid var(--green-accent);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         h2 { 
             color: var(--gold); 
-            font-size: 1.2rem; 
+            font-size: 1.1rem; 
             text-transform: uppercase; 
             letter-spacing: 1px;
             margin-top: 30px;
-            border-left: 4px solid var(--gold);
-            padding-left: 10px;
         }
 
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
 
         .card { 
             background: var(--card-bg); 
             padding: 20px; 
             border-radius: 15px; 
             border: 1px solid #333;
-            transition: transform 0.
-            
+        }
+
+        .stat-number { font-size: 2rem; font-weight: bold; color: var(--gold); }
+        .stat-label { font-size: 0.8rem; text-transform: uppercase; color: #888; }
+        
+        .location-tag { color: var(--green-accent); font-weight: bold; font-size: 0.9rem; }
+        .role { color: var(--gold); font-weight: bold; font-size: 0.75rem; text-transform: uppercase; }
+
+        footer { text-align: center; padding: 40px; color: #555; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<header>
+      
